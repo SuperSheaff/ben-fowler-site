@@ -1,0 +1,154 @@
+body {
+  background-color: #232323;
+  color: #FFFFFF;
+  font-family: 'Satoshi', Courier, monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+hr {
+  background-color: #FFFFFF;
+  height: 2px;
+  margin-bottom: 32px;
+  margin-top: 0px;
+}
+
+canvas {
+  left: 0;
+  position: fixed;
+  top: 0;
+}
+
+::selection {
+  background: #69FF69;
+  color: #232323;
+}
+
+.container {
+  padding: 32px;
+}
+
+.section__banner {
+  height: 100vh;
+}
+
+.section__heading {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.section__text {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* Font Weight Classes */
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+/* Margin Classes */
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mt-n2 {
+  margin-top: -2px;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.my-auto {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+/* Display Classes */
+
+.d-flex {
+  display: flex;
+}
+
+/* Width Classes */
+
+.w-50 {
+  width: 50%;
+}
+
+.section__projects--link {
+  color: #FFFFFF;
+  position: relative;
+  text-decoration: unset;
+  transition: .3s cubic-bezier(0.2, 0.6, 0.3, 1);
+}
+
+.section__projects--link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #69FF69;
+  transform: scale3d(1, 0, 1);
+  transform-origin: center top;
+  transition: transform .3s cubic-bezier(0.2, 0.6, 0.3, 1);
+  z-index: 1;
+}
+
+.project {
+  padding-left: 0;
+  transition: .3s cubic-bezier(0.2, 0.6, 0.3, 1);
+}
+
+.section__projects--link:hover::after {
+  transform: scale3d(1, 1, 1);
+  transform-origin: center bottom;
+}
+
+.section__projects--link:hover {
+  color: #232323;
+}
+
+.section__projects--link:hover .project {
+  padding-left: 16px;
+}
+
+.section__border {
+  background-color: #FFFFFF;
+  height: 2px;
+  width: 100%;
+  z-index: 1;
+}
+
+.section__projects--link-container {
+  padding-bottom: 16px;
+  padding-top: 16px;
+  position: relative;
+  z-index: 2;
+}
