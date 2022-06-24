@@ -1,0 +1,12 @@
+{
+  "short_name": "Ben Fowler",
+  "name": "",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#232323",
+  "theme_color": "#232323"
+}

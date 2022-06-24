@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Standard Man: Ben Fowler
+    Contact: ben.r.fowler@gmail.com
+    From: Brisbane, Australia
+
+# THANKS
+
+    Ben Fowler
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, Webpack, JS, Node.js, React, Babel, Sass
